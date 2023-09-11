@@ -61,7 +61,7 @@ async def command_start(message: Message):
 
 @dp.message(Command('id'))
 async def user_id(message: Message):
-    await message.answer(f'Your telegram id :  {message.from_user.id}')
+    await message.answer(f'You telegram id :  {message.from_user.id}')
 
 
 async def main() -> None:
