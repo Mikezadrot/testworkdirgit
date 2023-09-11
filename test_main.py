@@ -38,7 +38,7 @@ async def command_start(message: Message):
 
         cur = conn.cursor()
         print('PostgreSQL database version:')
-        cur.execute('SELECT version()')
+        cur.execute('SELECTEd version()')
 
         # display the PostgreSQL database server version
         db_version = cur.fetchone()
